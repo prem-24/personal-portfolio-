@@ -1,0 +1,71 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&family=Work+Sans:wght@400;600;700;800;900&display=swap');
+
+
+  
+body{
+    font-family: 'Work Sans', sans-serif; 
+    background-color: #FFFFFE;
+}
+
+
+h1,h3,h4,h5,h6{
+    font-family: 'Eczar', serif;
+}
+
+.navcolor{
+    color: #5F6C7B !important;
+}
+
+.navcolor:hover{
+    color: #094067 !important;
+}
+
+.btn-custom{
+    color: #3DA9FC;
+    border-radius: 10px;
+    border: solid 2px #3DA9FC !important;
+    background-color: #ffffff;
+    /* font-size: 15px; */
+
+}
+.btn:hover{
+    color: #ffffff;
+    background-color: #3DA9FC;
+    
+}
+.icons{
+    display: flex;
+    font-size: 50px;
+    color: #EF4565;
+}
+.icons>a{
+    
+    color: #EF4565;
+}
+
+
+
+.navbar-toggler{
+    /* */
+    border: 2px solid #3DA9FC;
+}
+.navbar-toggler:hover{
+    color: #3DA9FC; 
+    border: 2px solid;
+}
+
+.premh2{
+
+    color: #3DA9FC; 
+}
+
+.heroh1{
+    color: #094067;
+    font-style: normal;
+    letter-spacing: 2.4px;
+}
+
+.herohmar{
+    margin-left: 150px;
+}
