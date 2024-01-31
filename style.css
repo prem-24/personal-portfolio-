@@ -8,6 +8,116 @@ body{
     background-color: #FFFFFE;
 }
 
+/* :root{
+    --primary-col-bg:#2f70b2 ;
+
+} */
+
+
+
+.card-font-h2{
+   color:#094067 !important; 
+}
+.project-container p{
+    color: #5F6C7B;
+    /* width: 90%; */
+    /* margin: 0 auto; */
+
+}
+/* project section card */
+/* 
+/* 
+ */
+.projects-name-font>h2{
+    display: inline-flex;
+padding-top: 20px;
+padding-bottom: 40px;
+color: #094067;
+font-family: Eczar;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 125%; /* 50px */
+letter-spacing: 0.8px;
+}
+/* .img-container{
+    max-width: 500;
+    height: 400px;
+    background-color: #dfdfee;
+    border-radius: 15px;
+    border: 1px solid #094067;
+    display: flex;
+    justify-content: center;
+} */
+.project-container{
+    background-color: #B9DAF3;
+    /* padding-top: 100px; */
+    /* padding: 30px 0; */
+}
+.img-container-font{
+    color: #094067;
+font-family: "Work Sans";
+font-size: 140px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%;
+opacity: 10%; /* 200.428px */
+width: 100%;}
+
+@media only screen and (max-width: 752px) {
+    .project-img>img{
+        
+    width: 350px;
+margin-top: 50px;}
+
+    
+  }
+
+  @media only screen and (max-width: 776px) {
+    .project-img>img{
+        
+    width: 350px;
+margin-top: 50px;
+}
+
+    
+  }
+
+.project-card{
+    background-color: #ffffff;
+    padding: 30px 0;
+    padding: 50px ;
+    border-radius: 20px;
+}
+.project-card p{
+    width: 95%;
+}
+.card-icon{
+    width: 70px;
+    height: 70px;
+    background-color: #EF4565;
+    border-radius: 50%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.card-icon-container{
+    display: flex;
+    gap: 20px;
+    justify-content: start;
+    
+}
+
+/* project section card */
+/* 
+/* 
+ */
+
+
+.--primary-col{
+    --primary-col-bg:#66a0d9 ;
+}
 
 h1,h3,h4,h5,h6{
     font-family: 'Eczar', serif;
@@ -74,3 +184,23 @@ h1,h3,h4,h5,h6{
 .hero-text{
 color: #5F6C7B;
 }
+
+
+
+/* animation effect */
+
+.project-img {
+    
+   
+    /* overflow: hidden; */
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-img:hover {
+    transform: scale(1.1);
+  }
+  
+
+  /* nav line animation */
+ 
