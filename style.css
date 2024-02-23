@@ -286,6 +286,111 @@ h6 {
   text-decoration: none;
 }
 
+/* <!-- contact form start --> */
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.btn-submit {
+  padding: 16px 48px;
+  background-color: #3da9fc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  margin-top: 50px;
+  /* width: 100%;  */
+  align-items: start !important;
+}
+
+.view-btn {
+  /* display: block !important; */
+  padding: 16px 48px;
+  background-color: #3da9fc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  margin-top: 20px;
+  /* width: 100%;  */
+  /* align-items:start !important; */
+  align-items: end;
+}
+
+.btn-submit:hover {
+  background-color: #3693db;
+}
+.btn-container {
+  display: flex;
+  justify-content: end;
+  /* background-color: #ef4565; */
+  padding-bottom: 20px;
+  /* align-items: center; */
+}
+
+
+
+.container-fluid-btn {
+  background-color: #b9daf3;
+}
+
+/* form */
+.cnt-form {
+  padding-top: 200px;
+}
+.form-container {
+  position: relative;
+}
+.cnt-bg-circle {
+  position: absolute;
+  bottom: -132px;
+  left: -53px;
+}
+
+.container-txt-bg {
+  margin-top: 90px;
+  background-color: #fffaca;
+}
+.navbar-toggler{
+  color: #ef4565!important;
+  border: 1px solid;
+}
+
+.container-txt-bg > h3 {
+  font-family: Eczar;
+  font-size: 34px;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px;
+  color: #094067;
+}
+
+.section-projects-1 {
+  display: none;
+
+}
+
+/* <!-- contact form end --> */
+
 /* @media only screen and (max-width: 470px) {
   .project-img > img {
     width: 300px;
