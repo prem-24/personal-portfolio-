@@ -364,6 +364,7 @@ textarea {
   position: absolute;
   bottom: -132px;
   left: -53px;
+  width: 20%;
 }
 
 .container-txt-bg {
@@ -388,7 +389,9 @@ textarea {
   display: none;
 
 }
-
+.btn-submit{
+  cursor: pointer;
+}
 /* <!-- contact form end --> */
 
 /* @media only screen and (max-width: 470px) {
@@ -519,5 +522,21 @@ textarea {
   .bg-2 img,
   .bg-1 img {
     display: none;
+  }
+  .cnt-bg-circle{
+    display: none;
+  }
+  .email-cont{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .email-cont >.col-6{
+    width: 100%;
+
+  }
+  .cnt-form{
+    padding-top: 100px !important;
   }
 }
